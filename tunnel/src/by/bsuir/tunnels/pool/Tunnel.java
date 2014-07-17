@@ -25,13 +25,13 @@ public class Tunnel{
     private Condition isFreeForRight = lock.newCondition();
     private boolean isUsedLeft = false;
     private boolean isUsedRight = false;
-    private Queue<Train> leftQueue;
-    private Queue<Train> rightQueue;
+//    private Queue<Train> leftQueue;
+//    private Queue<Train> rightQueue;
 
     public Tunnel(int number) {
         this.number = number;
-        leftQueue = new LinkedList<Train>();
-        rightQueue = new LinkedList<Train>();
+//        leftQueue = new LinkedList<Train>();
+//        rightQueue = new LinkedList<Train>();
     }
 
     public int getNumber() {
@@ -42,22 +42,22 @@ public class Tunnel{
         this.number = number;
     }
 
-    public void addTrainLeft(Train train) {
-        leftQueue.add(train);
-    }
-
-    public void removeTrainLeft(){
-        leftQueue.poll();
-    }
-
-    public void addTrainRight(Train train) {
-        rightQueue.add(train);
-    }
-
-    public void removeTrainRight(){
-        rightQueue.poll();
-    }
-
+//    public void addTrainLeft(Train train) {
+//        leftQueue.add(train);
+//    }
+//
+//    public void removeTrainLeft(){
+//        leftQueue.poll();
+//    }
+//
+//    public void addTrainRight(Train train) {
+//        rightQueue.add(train);
+//    }
+//
+//    public void removeTrainRight(){
+//        rightQueue.poll();
+//    }
+//
 
 
     public boolean using(int maxWaitSeconds, int length, int trainNumber, String site) {
