@@ -1,0 +1,289 @@
+17:53:04,388  INFO Train: Train #1, catched tunnel #2
+17:53:04,553  INFO Train: Train #1, catched tunnel #2 passed through
+17:53:04,553  INFO Train: Train #2, catched tunnel #2
+17:53:04,814  INFO Train: Train #2, catched tunnel #2 passed through
+17:53:04,814  INFO Train: Train #3, catched tunnel #2
+17:53:05,300  INFO Train: Train #3, catched tunnel #2 passed through
+17:53:05,300  INFO Train: Train #4, catched tunnel #2
+17:53:05,527  INFO Train: Train #4, catched tunnel #2 passed through
+17:53:05,527  INFO Train: Train #5, catched tunnel #2
+17:53:06,410  INFO Train: Train #5, catched tunnel #2 passed through
+17:53:06,410  INFO Train: Train #6, catched tunnel #2
+17:53:07,052  INFO Train: Train #6, catched tunnel #2 passed through
+17:53:07,052  INFO Train: Train #7, catched tunnel #2
+17:53:07,519  INFO Train: Train #7, catched tunnel #2 passed through
+17:53:07,519  INFO Train: Train #8, catched tunnel #2
+17:53:07,897  INFO Train: Train #8, catched tunnel #2 passed through
+17:53:07,897  INFO Train: Train #9, catched tunnel #2
+17:53:08,134  INFO Train: Train #9, catched tunnel #2 passed through
+17:53:08,134  INFO Train: Train #10, catched tunnel #2
+17:53:08,485  INFO Train: Train #10, catched tunnel #2 passed through
+17:53:08,485  INFO Train: Train #11, catched tunnel #2
+17:53:09,084  INFO Train: Train #11, catched tunnel #2 passed through
+17:53:09,084  INFO Train: Train #12, catched tunnel #2
+17:53:09,585  INFO Train: Train #12, catched tunnel #2 passed through
+17:53:09,585  INFO Train: Train #13, catched tunnel #2
+17:53:10,092  INFO Train: Train #13, catched tunnel #2 passed through
+17:53:10,092  INFO Train: Train #14, catched tunnel #2
+17:53:10,469  INFO Train: Train #14, catched tunnel #2 passed through
+17:53:10,469  INFO Train: Train #15, catched tunnel #2
+17:53:10,904  INFO Train: Train #15, catched tunnel #2 passed through
+17:53:10,904  INFO Train: Train #16, catched tunnel #2
+17:53:11,632  INFO Train: Train #16, catched tunnel #2 passed through
+17:53:11,632  INFO Train: Train #17, catched tunnel #2
+17:53:12,255  INFO Train: Train #17, catched tunnel #2 passed through
+17:53:12,255  INFO Train: Train #18, catched tunnel #2
+17:53:12,683  INFO Train: Train #18, catched tunnel #2 passed through
+17:53:12,683  INFO Train: Train #19, catched tunnel #2
+17:53:12,978  INFO Train: Train #19, catched tunnel #2 passed through
+17:53:12,978  INFO Train: Train #20, catched tunnel #2
+17:53:13,075  INFO Train: Train #20, catched tunnel #2 passed through
+17:54:33,668  INFO Train: Train #1, catched tunnel #2
+17:54:34,146  INFO Train: Train #1, catched tunnel #2 passed through
+17:54:34,146  INFO Train: Train #2, catched tunnel #2
+17:54:37,733  INFO Train: Train #2, catched tunnel #2 passed through
+17:54:37,733  INFO Train: Train #3, catched tunnel #2
+17:54:38,936  INFO Train: Train #3, catched tunnel #2 passed through
+17:54:38,936  INFO Train: Train #4, catched tunnel #2
+17:54:47,100  INFO Train: Train #4, catched tunnel #2 passed through
+17:54:47,100  INFO Train: Train #5, catched tunnel #2
+17:54:48,792  INFO Train: Train #5, catched tunnel #2 passed through
+17:54:48,792  INFO Train: Train #6, catched tunnel #2
+17:54:55,241  INFO Train: Train #6, catched tunnel #2 passed through
+17:54:55,241  INFO Train: Train #7, catched tunnel #2
+17:54:56,684  INFO Train: Train #7, catched tunnel #2 passed through
+17:54:56,684  INFO Train: Train #8, catched tunnel #2
+17:55:01,919  INFO Train: Train #8, catched tunnel #2 passed through
+17:55:01,919  INFO Train: Train #9, catched tunnel #2
+17:55:02,293  INFO Train: Train #9, catched tunnel #2 passed through
+17:55:02,293  INFO Train: Train #10, catched tunnel #2
+17:55:03,558  INFO Train: Train #10, catched tunnel #2 passed through
+17:55:03,558  INFO Train: Train #11, catched tunnel #2
+17:55:04,361  INFO Train: Train #11, catched tunnel #2 passed through
+17:55:04,361  INFO Train: Train #12, catched tunnel #2
+17:55:14,445  INFO Train: Train #12, catched tunnel #2 passed through
+17:55:14,446  INFO Train: Train #13, catched tunnel #2
+17:55:16,893  INFO Train: Train #13, catched tunnel #2 passed through
+17:55:16,893  INFO Train: Train #14, catched tunnel #2
+17:55:19,108  INFO Train: Train #14, catched tunnel #2 passed through
+17:55:19,108  INFO Train: Train #15, catched tunnel #2
+17:55:22,202  INFO Train: Train #15, catched tunnel #2 passed through
+17:55:22,202  INFO Train: Train #16, catched tunnel #2
+17:55:31,292  INFO Train: Train #16, catched tunnel #2 passed through
+17:55:31,292  INFO Train: Train #17, catched tunnel #2
+17:55:38,730  INFO Train: Train #17, catched tunnel #2 passed through
+17:55:38,730  INFO Train: Train #18, catched tunnel #2
+17:55:43,143  INFO Train: Train #18, catched tunnel #2 passed through
+17:55:43,143  INFO Train: Train #19, catched tunnel #2
+17:55:43,421  INFO Train: Train #19, catched tunnel #2 passed through
+17:55:43,421  INFO Train: Train #20, catched tunnel #2
+17:55:45,385  INFO Train: Train #20, catched tunnel #2 passed through
+17:58:49,754  INFO Train: Train #2, catched tunnel #2
+17:58:49,754  INFO Train: Train #1, catched tunnel #2
+17:58:50,275  INFO Train: Train #2, catched tunnel #2 passed through
+17:58:50,275  INFO Train: Train #3, catched tunnel #2
+17:58:52,757  INFO Train: Train #7, waiting for tunnel 3
+17:58:52,763  INFO Train: Train #5, waiting for tunnel 3
+17:58:52,763  INFO Train: Train #13, waiting for tunnel 3
+17:58:52,763  INFO Train: Train #8, waiting for tunnel 3
+17:58:52,763  INFO Train: Train #10, waiting for tunnel 3
+17:58:52,763  INFO Train: Train #6, waiting for tunnel 3
+17:58:52,763  INFO Train: Train #4, waiting for tunnel 3
+17:58:52,763  INFO Train: Train #11, waiting for tunnel 3
+17:58:52,763  INFO Train: Train #15, waiting for tunnel 3
+17:58:52,763  INFO Train: Train #17, waiting for tunnel 3
+17:58:52,763  INFO Train: Train #9, waiting for tunnel 3
+17:58:52,763  INFO Train: Train #19, waiting for tunnel 3
+17:58:52,763  INFO Train: Train #14, waiting for tunnel 3
+17:58:52,762  INFO Train: Train #12, waiting for tunnel 3
+17:58:52,762  INFO Train: Train #18, waiting for tunnel 3
+17:58:52,762  INFO Train: Train #20, waiting for tunnel 3
+17:58:52,762  INFO Train: Train #16, waiting for tunnel 3
+17:58:55,764  INFO Train: Train #5, waiting for tunnel 3
+17:58:55,764  INFO Train: Train #8, waiting for tunnel 3
+17:58:55,764  INFO Train: Train #7, waiting for tunnel 3
+17:58:55,764  INFO Train: Train #6, waiting for tunnel 3
+17:58:55,764  INFO Train: Train #10, waiting for tunnel 3
+17:58:55,764  INFO Train: Train #13, waiting for tunnel 3
+17:58:55,765  INFO Train: Train #4, waiting for tunnel 3
+17:58:55,765  INFO Train: Train #15, waiting for tunnel 3
+17:58:55,765  INFO Train: Train #11, waiting for tunnel 3
+17:58:55,765  INFO Train: Train #17, waiting for tunnel 3
+17:58:55,765  INFO Train: Train #14, waiting for tunnel 3
+17:58:55,765  INFO Train: Train #19, waiting for tunnel 3
+17:58:55,765  INFO Train: Train #9, waiting for tunnel 3
+17:58:55,765  INFO Train: Train #12, waiting for tunnel 3
+17:58:55,766  INFO Train: Train #18, waiting for tunnel 3
+17:58:55,766  INFO Train: Train #16, waiting for tunnel 3
+17:58:55,766  INFO Train: Train #20, waiting for tunnel 3
+17:58:57,622  INFO Train: Train #3, catched tunnel #2 passed through
+17:58:57,622  INFO Train: Train #5, catched tunnel #2
+17:58:58,765  INFO Train: Train #13, waiting for tunnel 3
+17:58:58,765  INFO Train: Train #4, waiting for tunnel 3
+17:58:58,765  INFO Train: Train #15, waiting for tunnel 3
+17:58:58,765  INFO Train: Train #17, waiting for tunnel 3
+17:58:58,765  INFO Train: Train #8, waiting for tunnel 3
+17:58:58,765  INFO Train: Train #10, waiting for tunnel 3
+17:58:58,765  INFO Train: Train #6, waiting for tunnel 3
+17:58:58,765  INFO Train: Train #14, waiting for tunnel 3
+17:58:58,765  INFO Train: Train #11, waiting for tunnel 3
+17:58:58,765  INFO Train: Train #7, waiting for tunnel 3
+17:58:58,766  INFO Train: Train #12, waiting for tunnel 3
+17:58:58,766  INFO Train: Train #9, waiting for tunnel 3
+17:58:58,766  INFO Train: Train #19, waiting for tunnel 3
+17:58:58,766  INFO Train: Train #16, waiting for tunnel 3
+17:58:58,766  INFO Train: Train #18, waiting for tunnel 3
+17:58:58,767  INFO Train: Train #20, waiting for tunnel 3
+17:58:58,928  INFO Train: Train #13, catched tunnel #2
+17:58:58,928  INFO Train: Train #1, catched tunnel #2 passed through
+17:59:01,638  INFO Train: Train #4, catched tunnel #2
+17:59:01,638  INFO Train: Train #5, catched tunnel #2 passed through
+17:59:01,766  INFO Train: Train #17, waiting for tunnel 3
+17:59:01,766  INFO Train: Train #6, waiting for tunnel 3
+17:59:01,766  INFO Train: Train #8, waiting for tunnel 3
+17:59:01,766  INFO Train: Train #14, waiting for tunnel 3
+17:59:01,766  INFO Train: Train #15, waiting for tunnel 3
+17:59:01,766  INFO Train: Train #10, waiting for tunnel 3
+17:59:01,766  INFO Train: Train #12, waiting for tunnel 3
+17:59:01,766  INFO Train: Train #19, waiting for tunnel 3
+17:59:01,766  INFO Train: Train #16, waiting for tunnel 3
+17:59:01,766  INFO Train: Train #9, waiting for tunnel 3
+17:59:01,766  INFO Train: Train #7, waiting for tunnel 3
+17:59:01,766  INFO Train: Train #11, waiting for tunnel 3
+17:59:01,767  INFO Train: Train #18, waiting for tunnel 3
+17:59:01,768  INFO Train: Train #20, waiting for tunnel 3
+17:59:04,767  INFO Train: Train #19, waiting for tunnel 3
+17:59:04,767  INFO Train: Train #10, waiting for tunnel 3
+17:59:04,767  INFO Train: Train #17, waiting for tunnel 3
+17:59:04,767  INFO Train: Train #8, waiting for tunnel 3
+17:59:04,767  INFO Train: Train #16, waiting for tunnel 3
+17:59:04,767  INFO Train: Train #6, waiting for tunnel 3
+17:59:04,767  INFO Train: Train #12, waiting for tunnel 3
+17:59:04,767  INFO Train: Train #11, waiting for tunnel 3
+17:59:04,767  INFO Train: Train #9, waiting for tunnel 3
+17:59:04,767  INFO Train: Train #18, waiting for tunnel 3
+17:59:04,767  INFO Train: Train #14, waiting for tunnel 3
+17:59:04,767  INFO Train: Train #7, waiting for tunnel 3
+17:59:04,767  INFO Train: Train #15, waiting for tunnel 3
+17:59:04,769  INFO Train: Train #20, waiting for tunnel 3
+17:59:07,371  INFO Train: Train #19, catched tunnel #2
+17:59:07,371  INFO Train: Train #4, catched tunnel #2 passed through
+17:59:07,768  INFO Train: Train #10, waiting for tunnel 3
+17:59:07,768  INFO Train: Train #11, waiting for tunnel 3
+17:59:07,768  INFO Train: Train #8, waiting for tunnel 3
+17:59:07,768  INFO Train: Train #15, waiting for tunnel 3
+17:59:07,768  INFO Train: Train #12, waiting for tunnel 3
+17:59:07,768  INFO Train: Train #17, waiting for tunnel 3
+17:59:07,768  INFO Train: Train #14, waiting for tunnel 3
+17:59:07,768  INFO Train: Train #18, waiting for tunnel 3
+17:59:07,768  INFO Train: Train #6, waiting for tunnel 3
+17:59:07,768  INFO Train: Train #16, waiting for tunnel 3
+17:59:07,768  INFO Train: Train #7, waiting for tunnel 3
+17:59:07,768  INFO Train: Train #9, waiting for tunnel 3
+17:59:07,770  INFO Train: Train #20, waiting for tunnel 3
+17:59:08,833  INFO Train: Train #13, catched tunnel #2 passed through
+17:59:08,833  INFO Train: Train #10, catched tunnel #2
+17:59:10,770  INFO Train: Train #17, waiting for tunnel 3
+17:59:10,770  INFO Train: Train #12, waiting for tunnel 3
+17:59:10,770  INFO Train: Train #16, waiting for tunnel 3
+17:59:10,770  INFO Train: Train #14, waiting for tunnel 3
+17:59:10,770  INFO Train: Train #8, waiting for tunnel 3
+17:59:10,770  INFO Train: Train #18, waiting for tunnel 3
+17:59:10,770  INFO Train: Train #6, waiting for tunnel 3
+17:59:10,770  INFO Train: Train #11, waiting for tunnel 3
+17:59:10,770  INFO Train: Train #9, waiting for tunnel 3
+17:59:10,770  INFO Train: Train #7, waiting for tunnel 3
+17:59:10,771  INFO Train: Train #20, waiting for tunnel 3
+17:59:10,770  INFO Train: Train #15, waiting for tunnel 3
+17:59:12,000  INFO Train: Train #17, catched tunnel #2
+17:59:12,000  INFO Train: Train #19, catched tunnel #2 passed through
+17:59:13,771  INFO Train: Train #9, waiting for tunnel 3
+17:59:13,771  INFO Train: Train #14, waiting for tunnel 3
+17:59:13,771  INFO Train: Train #8, waiting for tunnel 3
+17:59:13,771  INFO Train: Train #6, waiting for tunnel 3
+17:59:13,771  INFO Train: Train #12, waiting for tunnel 3
+17:59:13,771  INFO Train: Train #18, waiting for tunnel 3
+17:59:13,771  INFO Train: Train #16, waiting for tunnel 3
+17:59:13,772  INFO Train: Train #20, waiting for tunnel 3
+17:59:13,772  INFO Train: Train #7, waiting for tunnel 3
+17:59:13,772  INFO Train: Train #15, waiting for tunnel 3
+17:59:13,772  INFO Train: Train #11, waiting for tunnel 3
+17:59:14,361  INFO Train: Train #9, catched tunnel #2
+17:59:14,361  INFO Train: Train #17, catched tunnel #2 passed through
+17:59:16,216  INFO Train: Train #10, catched tunnel #2 passed through
+17:59:16,216  INFO Train: Train #14, catched tunnel #2
+17:59:16,772  INFO Train: Train #18, waiting for tunnel 3
+17:59:16,772  INFO Train: Train #6, waiting for tunnel 3
+17:59:16,772  INFO Train: Train #12, waiting for tunnel 3
+17:59:16,772  INFO Train: Train #8, waiting for tunnel 3
+17:59:16,772  INFO Train: Train #16, waiting for tunnel 3
+17:59:16,772  INFO Train: Train #20, waiting for tunnel 3
+17:59:16,773  INFO Train: Train #11, waiting for tunnel 3
+17:59:16,773  INFO Train: Train #7, waiting for tunnel 3
+17:59:16,773  INFO Train: Train #15, waiting for tunnel 3
+17:59:19,773  INFO Train: Train #6, waiting for tunnel 3
+17:59:19,773  INFO Train: Train #8, waiting for tunnel 3
+17:59:19,773  INFO Train: Train #18, waiting for tunnel 3
+17:59:19,773  INFO Train: Train #16, waiting for tunnel 3
+17:59:19,773  INFO Train: Train #12, waiting for tunnel 3
+17:59:19,773  INFO Train: Train #20, waiting for tunnel 3
+17:59:19,773  INFO Train: Train #11, waiting for tunnel 3
+17:59:19,774  INFO Train: Train #15, waiting for tunnel 3
+17:59:19,774  INFO Train: Train #7, waiting for tunnel 3
+17:59:20,767  INFO Train: Train #9, catched tunnel #2 passed through
+17:59:20,767  INFO Train: Train #6, catched tunnel #2
+17:59:21,822  INFO Train: Train #6, catched tunnel #2 passed through
+17:59:21,822  INFO Train: Train #8, catched tunnel #2
+17:59:22,774  INFO Train: Train #15, waiting for tunnel 3
+17:59:22,774  INFO Train: Train #12, waiting for tunnel 3
+17:59:22,774  INFO Train: Train #16, waiting for tunnel 3
+17:59:22,774  INFO Train: Train #18, waiting for tunnel 3
+17:59:22,774  INFO Train: Train #7, waiting for tunnel 3
+17:59:22,774  INFO Train: Train #11, waiting for tunnel 3
+17:59:22,774  INFO Train: Train #20, waiting for tunnel 3
+17:59:22,848  INFO Train: Train #14, catched tunnel #2 passed through
+17:59:22,848  INFO Train: Train #12, catched tunnel #2
+17:59:25,776  INFO Train: Train #11, waiting for tunnel 3
+17:59:25,776  INFO Train: Train #18, waiting for tunnel 3
+17:59:25,776  INFO Train: Train #20, waiting for tunnel 3
+17:59:25,776  INFO Train: Train #16, waiting for tunnel 3
+17:59:25,776  INFO Train: Train #7, waiting for tunnel 3
+17:59:25,776  INFO Train: Train #15, waiting for tunnel 3
+17:59:28,607  INFO Train: Train #8, catched tunnel #2 passed through
+17:59:28,607  INFO Train: Train #11, catched tunnel #2
+17:59:28,776  INFO Train: Train #18, waiting for tunnel 3
+17:59:28,776  INFO Train: Train #20, waiting for tunnel 3
+17:59:28,776  INFO Train: Train #7, waiting for tunnel 3
+17:59:28,776  INFO Train: Train #15, waiting for tunnel 3
+17:59:28,776  INFO Train: Train #16, waiting for tunnel 3
+17:59:31,405  INFO Train: Train #12, catched tunnel #2 passed through
+17:59:31,405  INFO Train: Train #18, catched tunnel #2
+17:59:31,514  INFO Train: Train #11, catched tunnel #2 passed through
+17:59:31,514  INFO Train: Train #20, catched tunnel #2
+17:59:31,777  INFO Train: Train #16, waiting for tunnel 3
+17:59:31,777  INFO Train: Train #15, waiting for tunnel 3
+17:59:31,777  INFO Train: Train #7, waiting for tunnel 3
+17:59:34,778  INFO Train: Train #15, waiting for tunnel 3
+17:59:34,778  INFO Train: Train #16, waiting for tunnel 3
+17:59:34,778  INFO Train: Train #7, waiting for tunnel 3
+17:59:37,419  INFO Train: Train #18, catched tunnel #2 passed through
+17:59:37,419  INFO Train: Train #15, catched tunnel #2
+17:59:37,779  INFO Train: Train #7, waiting for tunnel 3
+17:59:37,779  INFO Train: Train #16, waiting for tunnel 3
+17:59:39,340  INFO Train: Train #20, catched tunnel #2 passed through
+17:59:39,340  INFO Train: Train #7, catched tunnel #2
+17:59:40,780  INFO Train: Train #16, waiting for tunnel 3
+17:59:41,497  INFO Train: Train #7, catched tunnel #2 passed through
+17:59:41,497  INFO Train: Train #16, catched tunnel #2
+17:59:42,497  INFO Train: Train #16, catched tunnel #2 passed through
+17:59:43,138  INFO Train: Train #15, catched tunnel #2 passed through
+21:08:01,932  INFO Tunnel: Train #1, waiting for tunnel #1 for max = 3 seconds
+21:08:05,137  INFO Tunnel: Train #1 goes form tunnel #1
+21:08:05,137  INFO Tunnel: Train #3, waiting for tunnel #1 for max = 3 seconds
+21:08:09,550  INFO Tunnel: Train #3 goes form tunnel #1
+21:08:09,550  INFO Tunnel: Train #2, waiting for tunnel #1 for max = 3 seconds
+21:08:09,703  INFO Tunnel: Train #2 goes form tunnel #1
+21:08:09,703  INFO Tunnel: Train #5, waiting for tunnel #1 for max = 3 seconds
+21:08:11,005  INFO Tunnel: Train #5 goes form tunnel #1
+21:08:11,005  INFO Tunnel: Train #4, waiting for tunnel #1 for max = 3 seconds
+21:08:19,845  INFO Tunnel: Train #4 goes form tunnel #1
