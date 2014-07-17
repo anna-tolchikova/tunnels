@@ -83,9 +83,10 @@ public class Main {
                         train.setMainTunnel(train.getSecondTunnel());
                         train.setSecondTunnel(tmp);
                         secondTunnelLeftQueue.add(train);
+                        log.info("Train #" + train.getNumber() + " goes from tunnel #" + train.getMainTunnel().getNumber());
                     }
                     else {
-                        log.info("Train #" + train.getNumber() + " goes form tunnel #" + train.getMainTunnel().getNumber());
+                        log.info("Train #" + train.getNumber() + " passed through tunnel #" + train.getMainTunnel().getNumber());
                     }
                 } catch (InterruptedException | ExecutionException e) {
                     log.error("First tunnel: " + e.getMessage());
@@ -101,9 +102,10 @@ public class Main {
                         train.setMainTunnel(train.getSecondTunnel());
                         train.setSecondTunnel(tmp);
                         secondTunnelRightQueue.add(train);
+                        log.info("Train #" + train.getNumber() + " goes from tunnel #" + train.getMainTunnel().getNumber());
                     }
                     else {
-                        log.info("Train #" + train.getNumber() + " goes form tunnel #" + train.getMainTunnel().getNumber());
+                        log.info("Train #" + train.getNumber() + " passed through tunnel #" + train.getMainTunnel().getNumber());
                     }
                 } catch (InterruptedException | ExecutionException e) {
                     log.error("First tunnel: " + e.getMessage());
@@ -118,9 +120,10 @@ public class Main {
                     train.setMainTunnel(train.getSecondTunnel());
                     train.setSecondTunnel(tmp);
                     secondTunnelLeftQueue.add(train);
+                    log.info("Train #" + train.getNumber() + " goes from tunnel #" + train.getMainTunnel().getNumber());
                 }
                 else {
-                    log.info("Train #" + train.getNumber() + " goes form tunnel #" + train.getMainTunnel().getNumber());
+                    log.info("Train #" + train.getNumber() + " passed through tunnel #" + train.getMainTunnel().getNumber());
                 }
             } catch (InterruptedException | ExecutionException e) {
                 log.error("First tunnel: " + e.getMessage());
@@ -134,9 +137,10 @@ public class Main {
                     train.setMainTunnel(train.getSecondTunnel());
                     train.setSecondTunnel(tmp);
                     secondTunnelRightQueue.add(train);
+                    log.info("Train #" + train.getNumber() + " goes from tunnel #" + train.getMainTunnel().getNumber());
                 }
                 else {
-                    log.info("Train #" + train.getNumber() + " goes form tunnel #" + train.getMainTunnel().getNumber());
+                    log.info("Train #" + train.getNumber() + " passed through tunnel #" + train.getMainTunnel().getNumber());
                 }
             } catch (InterruptedException | ExecutionException e) {
                 log.error("First tunnel: " + e.getMessage());
@@ -153,7 +157,7 @@ public class Main {
         while (secondTunnelLeftQueue.size() > 0 || secondTunnelRightQueue.size() > 0) {
 
             while (secondTunnelLeftQueue.size() > secondTunnelRightQueue.size()) {
-                Train train = firstTunnelLeftQueue.poll();
+                Train train = secondTunnelLeftQueue.poll();
                 Future<Boolean> future = es.submit(train);
                 try {
                     if (future.get() == false) {
@@ -161,9 +165,10 @@ public class Main {
                         train.setMainTunnel(train.getSecondTunnel());
                         train.setSecondTunnel(tmp);
                         firstTunnelLeftQueue.add(train);
+                        log.info("Train #" + train.getNumber() + " goes from tunnel #" + train.getMainTunnel().getNumber());
                     }
                     else {
-                        log.info("Train #" + train.getNumber() + " goes form tunnel #" + train.getMainTunnel().getNumber());
+                        log.info("Train #" + train.getNumber() + " passed through tunnel #" + train.getMainTunnel().getNumber());
                     }
                 } catch (InterruptedException | ExecutionException e) {
                     log.error("First tunnel: " + e.getMessage());
@@ -171,7 +176,7 @@ public class Main {
             }
 
             while (secondTunnelLeftQueue.size() < secondTunnelRightQueue.size()) {
-                Train train = firstTunnelRightQueue.poll();
+                Train train = secondTunnelRightQueue.poll();
                 Future<Boolean> future = es.submit(train);
                 try {
                     if (future.get() == false) {
@@ -179,9 +184,10 @@ public class Main {
                         train.setMainTunnel(train.getSecondTunnel());
                         train.setSecondTunnel(tmp);
                         firstTunnelRightQueue.add(train);
+                        log.info("Train #" + train.getNumber() + " goes from tunnel #" + train.getMainTunnel().getNumber());
                     }
                     else {
-                        log.info("Train #" + train.getNumber() + " goes form tunnel #" + train.getMainTunnel().getNumber());
+                        log.info("Train #" + train.getNumber() + " passed through tunnel #" + train.getMainTunnel().getNumber());
                     }
                 } catch (InterruptedException | ExecutionException e) {
                     log.error("First tunnel: " + e.getMessage());
@@ -196,9 +202,10 @@ public class Main {
                     train.setMainTunnel(train.getSecondTunnel());
                     train.setSecondTunnel(tmp);
                     firstTunnelLeftQueue.add(train);
+                    log.info("Train #" + train.getNumber() + " goes from tunnel #" + train.getMainTunnel().getNumber());
                 }
                 else {
-                    log.info("Train #" + train.getNumber() + " goes form tunnel #" + train.getMainTunnel().getNumber());
+                    log.info("Train #" + train.getNumber() + " passed through tunnel #" + train.getMainTunnel().getNumber());
                 }
             } catch (InterruptedException | ExecutionException e) {
                 log.error("First tunnel: " + e.getMessage());
@@ -212,9 +219,10 @@ public class Main {
                     train.setMainTunnel(train.getSecondTunnel());
                     train.setSecondTunnel(tmp);
                     firstTunnelRightQueue.add(train);
+                    log.info("Train #" + train.getNumber() + " goes from tunnel #" + train.getMainTunnel().getNumber());
                 }
                 else {
-                    log.info("Train #" + train.getNumber() + " goes form tunnel #" + train.getMainTunnel().getNumber());
+                    log.info("Train #" + train.getNumber() + " passed through tunnel #" + train.getMainTunnel().getNumber());
                 }
             } catch (InterruptedException | ExecutionException e) {
                 log.error("First tunnel: " + e.getMessage());

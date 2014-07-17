@@ -109,11 +109,11 @@ public class Train implements Callable<Boolean> {
 
     }
 
-    public void passThrough(int tunnelNumber) {
-        try {
-            Thread.sleep(new Random().nextInt(10000 + length*100/60));  // допускаем, что время нахождения в туннеле  1с(реальная 1мин) + время, зависящее от длины.
-        } catch (InterruptedException e) {
-            log.error("Train #" + number + "passing through tunnel #" + tunnelNumber + ": " + e.getMessage());
-        }
-    }
+//    public void passThrough(int tunnelNumber) {
+//        try {
+//            Thread.sleep(new Random().nextInt(10000 + length*100/60));  // допускаем, что время нахождения в туннеле  1с(реальная 1мин) + время, зависящее от длины.
+//        } catch (InterruptedException e) {
+//            log.error("Train #" + number + "passing through tunnel #" + tunnelNumber + ": " + e.getMessage());
+//        }
+//    }
 }
