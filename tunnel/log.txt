@@ -287,3 +287,33 @@
 21:08:11,005  INFO Tunnel: Train #5 goes form tunnel #1
 21:08:11,005  INFO Tunnel: Train #4, waiting for tunnel #1 for max = 3 seconds
 21:08:19,845  INFO Tunnel: Train #4 goes form tunnel #1
+21:23:07,505  INFO Tunnel: Train #2, waiting for tunnel #1 for max = 3 seconds
+21:23:16,227  INFO Tunnel: Train #2 goes form tunnel #1
+21:23:16,227  INFO Tunnel: Train #3, waiting for tunnel #1 for max = 3 seconds
+21:23:25,399  INFO Tunnel: Train #3 goes form tunnel #1
+21:23:25,399  INFO Tunnel: Train #4, waiting for tunnel #1 for max = 3 seconds
+21:23:25,738  INFO Tunnel: Train #4 goes form tunnel #1
+21:23:25,738  INFO Tunnel: Train #1, waiting for tunnel #1 for max = 3 seconds
+21:23:26,738  INFO Tunnel: Train #1 goes form tunnel #1
+21:23:26,738  INFO Tunnel: Train #5, waiting for tunnel #1 for max = 3 seconds
+21:23:36,751  INFO Tunnel: Train #5 goes form tunnel #1
+21:23:36,751  INFO Tunnel: Train #6, waiting for tunnel #2 for max = 3 seconds
+21:23:45,777  INFO Tunnel: Train #6 goes form tunnel #2
+21:23:45,777  INFO Tunnel: Train #7, waiting for tunnel #2 for max = 3 seconds
+21:23:52,935  INFO Tunnel: Train #7 goes form tunnel #2
+21:23:52,935  INFO Tunnel: Train #8, waiting for tunnel #2 for max = 3 seconds
+21:24:01,371  INFO Tunnel: Train #8 goes form tunnel #2
+21:24:01,371  INFO Tunnel: Train #9, waiting for tunnel #2 for max = 3 seconds
+21:24:03,587  INFO Tunnel: Train #9 goes form tunnel #2
+21:24:03,587  INFO Tunnel: Train #10, waiting for tunnel #2 for max = 3 seconds
+21:24:04,401  INFO Tunnel: Train #10 goes form tunnel #2
+21:34:55,530  INFO Tunnel: Train #1, waiting for tunnel #1 for max = 3 seconds
+21:34:59,693  INFO Tunnel: Train #1 passed through tunnel #1
+21:34:59,693  INFO Tunnel: Train #2, waiting for tunnel #1 for max = 3 seconds
+21:35:07,237  INFO Tunnel: Train #2 passed through tunnel #1
+21:35:07,237  INFO Tunnel: Train #3, waiting for tunnel #1 for max = 3 seconds
+21:35:14,215  INFO Tunnel: Train #3 passed through tunnel #1
+21:35:14,215  INFO Tunnel: Train #4, waiting for tunnel #1 for max = 3 seconds
+21:35:19,166  INFO Tunnel: Train #4 passed through tunnel #1
+21:35:19,166  INFO Tunnel: Train #5, waiting for tunnel #1 for max = 3 seconds
+21:35:28,950  INFO Tunnel: Train #5 passed through tunnel #1
