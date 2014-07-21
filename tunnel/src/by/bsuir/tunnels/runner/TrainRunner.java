@@ -31,7 +31,7 @@ public class TrainRunner {
 
 
 
-    private Train CreateTrain()
+    private Train createTrain()
     {
         Train train = new Train(trains.size() + 1, tunnels.get(rnd.nextInt(tunnels.size())), this, MAX_WAIT_SECONDS, (rnd.nextInt(2) == 0) ? "left" : "right");
         return train;
@@ -48,7 +48,7 @@ public class TrainRunner {
     public void initializeTrainsQueue() {
         for (int i = 0; i < START_QUEUES_LENGTH; ++i)
         {
-            trains.add(CreateTrain());
+            trains.add(createTrain());
         }
     }
 
@@ -60,7 +60,7 @@ public class TrainRunner {
 
         while (true)
         {
-            Train newTrain = CreateTrain();
+            Train newTrain = createTrain();
             trains.add(newTrain);
             newTrain.start();
 

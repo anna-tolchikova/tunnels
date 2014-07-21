@@ -33,34 +33,5 @@ public class Main {
         } catch (InterruptedException e) {
             log.error(e.getMessage());
         }
-
-
-//
-//            while (secondTunnelLeftQueue.size() < secondTunnelRightQueue.size()) {
-//                Train train = secondTunnelRightQueue.poll();
-//                Future<Boolean> future = es.submit(train);
-//                try {
-//                    if (future.get() == false) {
-//                        Tunnel tmp = train.getMainTunnel();
-//                        train.setMainTunnel(train.getSecondTunnel());
-//                        train.setSecondTunnel(tmp);
-//                        firstTunnelRightQueue.add(train);
-//                        log.info("Train #" + train.getNumber() + " goes from tunnel #" + train.getMainTunnel().getNumber());
-//                    }
-//                    else {
-//                        log.info("Train #" + train.getNumber() + " passed through tunnel #" + train.getMainTunnel().getNumber());
-//                    }
-//                } catch (InterruptedException | ExecutionException e) {
-//                    log.error("First tunnel: " + e.getMessage());
-//                }
-//            }
-
-
-
-
-
-
-
-
     }
 }

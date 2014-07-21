@@ -5,8 +5,6 @@ import by.bsuir.tunnels.runner.TrainRunner;
 import org.apache.log4j.Logger;
 
 import java.util.Random;
-import java.util.concurrent.Semaphore;
-
 
 public class Train extends Thread {
 
@@ -44,9 +42,12 @@ public class Train extends Thread {
 
     public void run() {
 
+        log.info("Train #" + number + ", waiting for tunnel #" + currentTunnel.getNumber());
+
         while (!currentTunnel.getTunnelAsResource(maxWaitSeconds)) {
-            int nextTonnelId = (trainRunner.getTunnels().indexOf(currentTunnel) + 1)%trainRunner.tunnelsListSize();
-            currentTunnel = trainRunner.getTunnels().get(nextTonnelId);
+            int nextTunnelId = (trainRunner.getTunnels().indexOf(currentTunnel) + 1)%trainRunner.tunnelsListSize();
+            currentTunnel = trainRunner.getTunnels().get(nextTunnelId);
+            log.info("Train #" + number + " switched for waiting  for tunnel #" + currentTunnel.getNumber());
         }
         try {
             Thread.sleep(new Random().nextInt(5000)); // поезд проходит через тоннель
@@ -56,30 +57,8 @@ public class Train extends Thread {
 
         //passed trough
         currentTunnel.getSemaphore().release();
-
-//        try {
-//            freeTunnel = model.getResource(maxWaitSeconds, site);
-//            while (freeTunnel == null) {
-//                log.info("Train #" + number + ", waiting for tunnel " + maxWaitSeconds + " seconds");
-//                freeTunnel = model.getResource(maxWaitSeconds, site);
-//            }
-//            log.info("Train #" + number + ", catched tunnel #"+ freeTunnel.getNumber());
-//            this.passThrough(freeTunnel.getNumber());
-//            model.returnResource(freeTunnel);
-//            log.info("Train #" + number + ", catched tunnel #"+ freeTunnel.getNumber() + " passed through");
-
-//        } catch (ResourceException e) {
-//            log.error("Train #" + number + ", waiting for tunnel "+ maxWaitSeconds + e.getMessage());
-//        }
-
+        log.info("Train #" + number + " passed through tunnel #" + currentTunnel.getNumber());
 
     }
 
-//    public void passThrough(int tunnelNumber) {
-//        try {
-//            Thread.sleep(new Random().nextInt(10000 + length*100/60));  // допускаем, что время нахождения в туннеле  1с(реальная 1мин) + время, зависящее от длины.
-//        } catch (InterruptedException e) {
-//            log.error("Train #" + number + "passing through tunnel #" + tunnelNumber + ": " + e.getMessage());
-//        }
-//    }
 }

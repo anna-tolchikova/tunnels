@@ -15,6 +15,7 @@ public class Tunnel{
 
     public Tunnel(int number) {
         this.number = number;
+        this.semaphore = new Semaphore(POOL_SIZE, true);
     }
 
     public int getNumber() {
